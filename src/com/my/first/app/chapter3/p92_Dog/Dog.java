@@ -16,7 +16,7 @@ public class Dog {
         myDogs[0].name = "Fred";
         myDogs[1].name = "George";
 
-        System.out.print("The name last dog - ");
+        System.out.print("Last dog's name is ");
         System.out.println(myDogs[2].name);
 
         int x = 0;
@@ -28,7 +28,7 @@ public class Dog {
     }
 
     public void bark() {
-        System.out.println(name + " said Gub!");
+        System.out.println(name + " said Ruff!");
     }
 
     public void eat() {
